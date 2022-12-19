@@ -1,8 +1,8 @@
 # DDPM
-In this repo, I implement the diffusion probabilistic model (DDPM) proposed by Ho et al~\cite{ho2020denoising} for synthesizing high-resolution images. 
+In this repo, I implement the diffusion probabilistic model (DDPM) proposed by Ho et alfor synthesizing high-resolution images. 
 My approach employs a Markov chain Monte Carlo sampling technique to approximate the posterior distribution of the model parameters, 
 allowing us to generate high-quality images that accurately capture the underlying data distribution. 
-I provide a detailed description of the principle behind the DDPM and present experimental results on Konachan~\footnote{aistudio: \url{https://aistudio.baidu.com/aistudio/datasetdetail/110820}}, CelebA-HQ~\cite{CelebAMask-HQ} and CIFAR10~\cite{CIFAR10} dataset. In addition, I compare the characteristics and limitations of DDPM with other state-of-the-art generative models, such as generative adversarial networks (GANs)~\cite{goodfellow2020generative}, variational autoencoders (VAEs)~\cite{Kingma2013AutoEncodingVB}, and flow-based models~\cite{JimenezRezende2015VariationalIW}. Furthermore, I survey current applications of the DDPM in the field of computer vision. Overall, My results demonstrate the effectiveness of the DDPM for image synthesis tasks and highlight its potential for various applications in the field.
+I provide a detailed description of the principle behind the DDPM and present experimental results on [Konachan]([url](https://aistudio.baidu.com/aistudio/datasetdetail/110820)), CelebA-HQand CIFAR10 dataset. In addition, I compare the characteristics and limitations of DDPM with other state-of-the-art generative models, such as generative adversarial networks (GANs), variational autoencoders (VAEs), and flow-based models. Furthermore, I survey current applications of the DDPM in the field of computer vision. Overall, My results demonstrate the effectiveness of the DDPM for image synthesis tasks and highlight its potential for various applications in the field.
 ![image](https://user-images.githubusercontent.com/60593268/208427647-da7a5390-9314-470f-87db-5591a532c863.png)
 
 
